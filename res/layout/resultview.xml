@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal|fill_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+	android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"
+
+    />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridView
+        android:id="@+id/GridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:numColumns="3" >
+    </GridView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/review" />
+
+</LinearLayout>

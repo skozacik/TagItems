@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/hello" />
+<Button
+	android:id="@+id/button1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/scan" />
+<EditText
+	android:id="@+id/editText1"
+	android:hint="Enter the name of a Beer to Search"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" />
+<Button
+	android:id="@+id/searchButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Click Here to Search" />
+</LinearLayout>

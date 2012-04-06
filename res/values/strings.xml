@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to iDrink please scan a beer to get started</string>
+    <string name="app_name">iDrink</string>
+	<string name="scan">Scan Barcode</string>
+	<string name="result_suceeded">Result_Succeeded</string>
+	<string name="result_failed">Result_Failed</string>
+	<string name="result_failed_why">Scan Failed </string>
+	<string name="review">Click Here to Add your Reviews</string>
+	<string name="rating">Add your rating</string>
+	<string name="addtag">Add Tag</string>
+	<string name="Tag">Add your tags here</string>
+	<string name="submit">Submit Review</string>
+	<string name="serverurl">http://ec2-67-202-18-165.compute-1.amazonaws.com</string>	
+	
+</resources>
